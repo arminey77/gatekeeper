@@ -12,7 +12,7 @@ spec:
     helm:
       values: |
         controllerManager:
-          replicas: 3
+          replicas: 1
   destination:
     server: https://kubernetes.default.svc
     namespace: gatekeeper-system
